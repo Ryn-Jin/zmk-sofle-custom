@@ -59,7 +59,7 @@
 &none       &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &none         &trans        &kp F6            &rgb_ug RGB_BRD  &kp F7     &kp INS     &kp HOME    &kp PAGE_UP    &kp MINUS         &kp EQUAL
 &none       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &rgb_ug RGB_EFR  &kp PG_DN  &kp DELETE  &kp END     &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &none       &none            &none            &none         &bt BT_CLR    &bt BT_CLR_ALL    &rgb_ug RGB_EFF  &none      &none       &none       &none          &none             &none
-&kp C_MUTE  &none            &none            &none         &none         &trans            &rgb_ug RGB_TOG  &trans     &none       &sys_reset  &bootloader    &soft_off
+&kp C_MUTE  &sys_reset       &bootloader      &none         &none         &trans            &rgb_ug RGB_TOG  &trans     &none       &sys_reset  &bootloader    &soft_off
             >;
 
             display-name = "layer1";
